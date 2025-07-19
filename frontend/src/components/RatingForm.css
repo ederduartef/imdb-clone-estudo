@@ -1,0 +1,57 @@
+.rating-form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.rating-form h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.user-rating {
+  background: #e3f2fd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: #1976d2;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.rating-stars .star {
+  cursor: pointer;
+  font-size: 24px;
+  color: #ddd;
+  transition: color 0.2s;
+}
+
+.rating-stars .star.filled {
+  color: #ffc107;
+}
+
+.rating-stars .star:hover {
+  color: #ffc107;
+}
+
+.rating-text {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.rating-form .btn {
+  margin-top: 15px;
+}
+
+.rating-form .btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+} 
